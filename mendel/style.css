@@ -1,0 +1,106 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+[class*="col-"] {
+  border: 1px solid black;
+  border-radius: 6px;
+  height: 40px;
+  text-align: center;
+}
+
+[class*="col-"] p {
+  margin: auto;
+  padding: auto;
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 50%;
+  right: 50%;
+}
+
+.case-footer {
+  width: auto;
+  height: 40px;
+  /*Bootstrap sur 18 colonnes : un "margin" me fait déborder et foire les espaces entre les cases.
+  margin: 2px;
+  */
+}
+.case-footer p {
+  font-size: 9px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  right: 0%;
+  left: 0%;
+  top: calc(50% - 9px);
+}
+
+/*Essai avec id= "footer" dans le <div class="row">, non-concluant.
+#footer {
+  font-size: 8px;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+  line-height: 40px;
+  height: 40px;
+}
+*/
+
+.green {
+  background-color: lightgreen;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.yellow {
+  background-color: #FFFF66;
+}
+
+.black {
+  background-color: DarkSlateGray;
+}
+
+.grey {
+  background-color: DarkGray;
+}
+
+.pink {
+  background-color: HotPink;
+}
+
+.lanthanid {
+  background-color: LightPink;
+}
+
+.actinid {
+  background-color: Fuchsia;
+}
+
+.sand {
+  background-color: SandyBrown;
+}
+
+.red {
+  background-color: Red;
+}
+
+.prim {
+  border: 1px solid;
+}
+
+.desint {
+  border: 1px dashed;
+}
+
+.synt {
+  border: 1px dotted;
+}

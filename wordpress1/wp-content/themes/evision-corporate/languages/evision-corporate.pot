@@ -1,0 +1,748 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: evision-corporate\n"
+"POT-Creation-Date: 2015-08-03 22:41+0530\n"
+"PO-Revision-Date: 2015-08-03 22:42+0530\n"
+"Last-Translator: eVisionThemes <evisionthemes@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ../../evision-corporate\n"
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:301
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:302
+msgid "Install Plugins"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:303
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:304
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:365
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:366
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:367
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2957
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:368
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:369
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:370
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:371
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:372
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:373
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2120
+msgid "Required"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2123
+msgid "Recommended"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2139
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2142
+msgid "External Source"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2145
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2162
+msgid "Not Installed"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2166
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2168
+msgid "Active"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2174
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2177
+msgid "Requires Update"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2180
+msgid "Update recommended"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2332
+msgid "Installed version:"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2340
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2352
+msgid "Available version:"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2375
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2389
+msgid "Plugin"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2390
+msgid "Source"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2391
+msgid "Type"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2395
+msgid "Version"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2396
+msgid "Status"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2556
+msgid "Install"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2562
+msgid "Update"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2565
+msgid "Activate"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2596
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2598
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2634
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2636
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2956
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3286
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3288
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3289
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3293
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3294
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3295
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3296
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3299
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3301
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3302
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../../evision-corporate/inc/frameworks/coder-customizer-framework/inc/custom-control/coder-tags-dropdown-control.php:45
+#: ../../evision-corporate/inc/frameworks/coder-customizer-framework/inc/custom-control/coder-user-dropdown-control.php:45
+#: ../../evision-corporate/inc/frameworks/coder-customizer-framework/inc/custom-control/coder-post-dropdown-control.php:47
+#: ../../evision-corporate/inc/frameworks/coder-customizer-framework/inc/custom-control/coder-category-control.php:36
+msgid "Select"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/footer.php:46
+#, php-format
+msgid "Theme : %1$s by %2$s."
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/footer.php:47
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/footer.php:47
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/tgmpa.php:14
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/header.php:143
+msgid "Loading"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/header.php:204
+#: ../../evision-corporate/inc/hooks/front-page/team.php:66
+#: ../../evision-corporate/inc/hooks/front-page/blog.php:56
+msgid "link"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/header.php:206
+msgid "evision-corporate-image"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/about.php:83
+#: ../../evision-corporate/inc/hooks/front-page/service.php:81
+#: ../../evision-corporate/inc/hooks/front-page/slider.php:67
+msgid "Know more"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/about.php:97
+msgid ""
+"Please select pages for about, also make sure to have featured image for all "
+"pages"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/service.php:95
+msgid "Please select pages for service"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/team.php:71
+#: ../../evision-corporate/inc/hooks/front-page/blog.php:60
+msgid "view details"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/team.php:82
+msgid ""
+"Please select pages for team, also make sure to have featured image for all "
+"pages"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/blog.php:52
+#: ../../evision-corporate/inc/hooks/front-page/portfolio.php:69
+#: ../../evision-corporate/inc/hooks/front-page/testimonial.php:110
+msgid "evision-corporate-no-image"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/blog.php:72
+msgid ""
+"Please select pages for blog, also make sure to have all pages have featured "
+"image"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/portfolio.php:89
+msgid ""
+"Please select pages for portfolio, also make sure to have featured image for "
+"all pages"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/slider.php:77
+msgid ""
+"Please select pages for slider, also make sure to have featured image for "
+"all pages"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/client.php:30
+msgid "client logo"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/testimonial.php:86
+msgid ""
+"Please select pages for testimonial, also make sure to have featured image "
+"for all pages"
+msgstr ""
+
+#: ../../evision-corporate/inc/hooks/front-page/testimonial.php:122
+msgid ""
+"Please select pages for testimonial, also make sure to have all pages have "
+"featured image"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/customizer.php:41
+msgid "General options"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/customizer.php:42
+#: ../../evision-corporate/inc/customizer/customizer.php:52
+msgid "Customize you awesome home page"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/customizer.php:51
+msgid "Front Page"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/customizer.php:126
+msgid "Theme options"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/customizer.php:127
+msgid "Customize your awesome site with theme options "
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/footer.php:8
+msgid "Footer"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/footer.php:9
+msgid "Customize footer section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/footer.php:17
+msgid "Copyright 2015 eVision Themes"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/footer.php:20
+msgid "Copyright text"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/footer.php:31
+msgid "Social icons"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/footer.php:35
+msgid "Please assign social menu for enabling social icons ."
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/footer.php:35
+msgid "Assign now"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/footer.php:41
+msgid "Enable social icons"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/footer.php:51
+msgid "Enable go to top"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/general.php:8
+msgid "General"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/general.php:9
+msgid "Customize general setting"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/general.php:17
+msgid "Favicon"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/general.php:28
+msgid "Web clip icon"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/general.php:32
+msgid "57*57 size"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/general.php:41
+msgid "Enable tagline"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/advanced.php:8
+msgid "Advanced"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/advanced.php:9
+msgid "Write custom css here to change looks"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/advanced.php:17
+msgid "Custom css"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/header.php:8
+msgid "Header"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/header.php:9
+msgid "Customize header section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/header.php:17
+msgid "Logo"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/header.php:21
+msgid "When you upload logo, the title and description will be replaced"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/layout.php:8
+msgid "Layout"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/layout.php:9
+msgid "Customize layout for Archive/Blog/Single/Page/Post"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/options/layout.php:20
+msgid "Archive/Blog/Single/Page/Post layout"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/about.php:8
+msgid "About section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/about.php:9
+#, php-format
+msgid ""
+"Please select page for about section. Page title will be about title and "
+"page content will be about content. You can manage page from %shere%s. Also "
+"you will be able to select font awesome icon as about icon"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/about.php:17
+msgid "Enable about section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/about.php:28
+msgid "About section main title"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/about.php:39
+msgid "About section main content"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/about.php:52
+msgid "About icon"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/about.php:56
+#: ../../evision-corporate/inc/customizer/front-page/service.php:68
+#, php-format
+msgid "Use font awesome icon: Eg: %s. %sSee more here%s"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/about.php:64
+msgid "Select page for about"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/service.php:9
+msgid "Service section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/service.php:10
+#, php-format
+msgid ""
+"Please select page for service section. Page title will be service title. "
+"You can manage page from %shere%s. Also you will be able to select font "
+"awesome icon as service icon"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/service.php:18
+msgid "Enable service section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/service.php:29
+msgid "Service section main title"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/service.php:40
+msgid "Service section main content"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/service.php:51
+msgid "Service section background"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/service.php:64
+msgid "Service icon"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/service.php:76
+msgid "Select page for service"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/team.php:8
+msgid "Team section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/team.php:9
+#, php-format
+msgid ""
+"Please select page for team section. Page title will be  name/position of "
+"the member and page featured image will be member image. You can manage page "
+"from %shere%s. Please use appropriate image size( greater than 175*175 ) and "
+"select pages that have same size of images"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/team.php:17
+msgid "Enable team section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/team.php:28
+msgid "Team section main title"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/team.php:39
+msgid "Team section main content"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/team.php:50
+msgid "Team section background"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/team.php:66
+msgid "Select page for team"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/blog.php:8
+msgid "Blog section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/blog.php:9
+msgid "The recent 3 posts will display in blog section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/blog.php:17
+msgid "Enable blog section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/blog.php:26
+msgid "Blog section main title"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/contact.php:8
+msgid "Contact section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/contact.php:9
+msgid "This section uses shortcode of a famous plugin contact form 7"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/contact.php:16
+msgid "Enable contact section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/contact.php:26
+msgid "Contact section main title"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/contact.php:36
+#: ../../evision-corporate/inc/customizer/front-page/contact.php:57
+msgid "Contact section background"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/contact.php:47
+msgid "Enter CF7 shortcode"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/contact.php:51
+#, php-format
+msgid "Requires %sContact Form 7%s plugin"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/portfolio.php:8
+msgid "Portfolio section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/portfolio.php:9
+#, php-format
+msgid ""
+"Please select page for portfolio section. Page title will be portfolio title "
+"and page featured image will be portfolio image. You can manage page from "
+"%shere%s. Please use appropriate image size( greater than 320*247 ) and "
+"select pages that have same size of images"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/portfolio.php:17
+msgid "Enable portfolio section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/portfolio.php:28
+msgid "Portfolio section main title"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/portfolio.php:38
+msgid "Portfolio section main content"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/portfolio.php:53
+msgid "Select page for portfolio"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/slider.php:9
+msgid "Slider section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/slider.php:10
+#, php-format
+msgid ""
+"Please select page for slider section. Page title will be slider title, page "
+"content will be slider content and page featured image will be slider image. "
+"You can manage page from %shere%s. Please use appropriate image size( about "
+"1920*690 ) and select pages that have same size of images"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/slider.php:18
+msgid "Enable slider section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/slider.php:34
+msgid "Select page for slider"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/client.php:8
+msgid "Client section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/client.php:9
+msgid ""
+"Please upload image for client. Please use appropriate image size( about "
+"130*30 )"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/client.php:17
+msgid "Enable client section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/client.php:28
+msgid "Client image"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/map.php:8
+msgid "Map section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/map.php:9
+msgid "Customize map section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/map.php:16
+msgid "Enable map section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/map.php:30
+msgid "Map latitude"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/map.php:44
+msgid "Map longitude"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/testimonial.php:8
+msgid "Testimonial section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/testimonial.php:9
+#, php-format
+msgid ""
+"Please select page for testimonial section. Page title will be  name/"
+"position of the sayer and page featured image will be sayer image. You can "
+"manage page from %shere%s. Please use appropriate image size( about "
+"175*175 ) and select pages that have same size of images"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/testimonial.php:16
+msgid "Enable testimonial section"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/testimonial.php:27
+msgid "Testimonial section main title"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/testimonial.php:38
+msgid "Testimonial section background"
+msgstr ""
+
+#: ../../evision-corporate/inc/customizer/front-page/testimonial.php:54
+msgid "Select page for testimonial"
+msgstr ""
+
+#: ../../evision-corporate/template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../../evision-corporate/template-parts/content.php:27
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
