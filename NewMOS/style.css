@@ -1,0 +1,8 @@
+.navbar {
+    background-color: transparent;
+    background: transparent;
+  }
+  
+  .navbar li { color: #000 }
+
+  body { padding-top: 70px; }
