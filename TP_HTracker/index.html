@@ -2,46 +2,137 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="lib/Fancybox/source/jquery.fancybox.css">
 		<link rel="stylesheet" type="text/css" href="lib/jQueryui/jquery-ui.min.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
     	<script src="js/jquery-1.11.3.min.js"></script>
     	<script src="lib/Fancybox/source/jquery.fancybox.js"></script>
     	<script src="lib/jQueryui/jquery-ui.min.js"></script>
-    	<script src="main.js"></script>
-    	<title>TP jQuery 2</title>
+    	<script src="script.js"></script>
+    	<title>TP Happiness Tracker</title>
 	</head>
 
 	<body>
-		    <div class="navigation">
-	    	<ul>
-	    		<li><a href="#">Rubrique</a></li>
-	    		<li><a href="#">Rubrique</a></li>
-	    		<li><a href="#">Rubrique</a></li>
-	    		<li><a href="#">Rubrique</a></li>
-	    	</ul>
-	    </div>
-
-	    <p>Date: <input type="text" id="datepicker"></p>
-
-	    <h1>Hello World</h1>
-	    <a href="#" class="titre">Cliquer ici pour changer la couleur du titre</a>
-	    <div class="carre"><p>Plop</p></div>
-	    <a href="#" class="onoff">Basculer la couleur du carré</a>
-	    <ul>
-	    	<li>Alain</li>
-	    	<li>Raymond</li>
-	    	<li>Bruno</li>
-	    	<li>Sophie</li>
-	    </ul>
-	    <a href="#" class="add">Ajouter un prénom</a>
-	    <p></p>
-	    <div class="gallerie">
-	    	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Spotted_Eagle_Ray_(Aetobatus_narinari)2.jpg/220px-Spotted_Eagle_Ray_(Aetobatus_narinari)2.jpg">
-			<img src="http://img.jgi.doe.gov/images/img-user-forum.png">
-			<img src="http://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Blue_Tiger_Im_IMG_9450.jpg">
-	    </div>
-
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="jumbotron">
+						<h2>
+							Webschool's Happiness Tracker
+						</h2>
+						<p>
+							Ce tracker vous permettra de suivre votre évolution en code en informant très simplement votre ressenti sur votre développement.
+							Prêt ? C'est parti !
+						</p>
+						<p>
+							<a class="btn btn-primary btn-large" href="#">Learn more</a>
+						</p>
+					</div>
+					<nav class="navbar navbar-default" role="navigation">
+						<div class="navbar-header">
+							 
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+							</button> <a class="navbar-brand" href="#">Brand</a>
+						</div>
+						
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active">
+									<a href="#">Link</a>
+								</li>
+								<li>
+									<a href="#">Link</a>
+								</li>
+								<li class="dropdown">
+									 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">Action</a>
+										</li>
+										<li>
+											<a href="#">Another action</a>
+										</li>
+										<li>
+											<a href="#">Something else here</a>
+										</li>
+										<li class="divider">
+										</li>
+										<li>
+											<a href="#">Separated link</a>
+										</li>
+										<li class="divider">
+										</li>
+										<li>
+											<a href="#">One more separated link</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<form class="navbar-form navbar-left" role="search">
+								<div class="form-group">
+									<input class="form-control" type="text" />
+								</div> 
+								<button type="submit" class="btn btn-default">
+									Submit
+								</button>
+							</form>
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									<a href="#">Link</a>
+								</li>
+								<li class="dropdown">
+									 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">Action</a>
+										</li>
+										<li>
+											<a href="#">Another action</a>
+										</li>
+										<li>
+											<a href="#">Something else here</a>
+										</li>
+										<li class="divider">
+										</li>
+										<li>
+											<a href="#">Separated link</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						
+					</nav>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="tabbable" id="tabs-891850">
+								<ul class="nav nav-tabs">
+									<li class="active">
+										<a href="#panel-288138" data-toggle="tab">Section 1</a>
+									</li>
+									<li>
+										<a href="#panel-596502" data-toggle="tab">Section 2</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="panel-288138">
+										<p>
+											I'm in Section 1.
+										</p>
+									</div>
+									<div class="tab-pane" id="panel-596502">
+										<p>
+											Howdy, I'm in Section 2.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
