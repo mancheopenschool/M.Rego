@@ -39,7 +39,7 @@
 					</div>
 
 					<!--Navbar-->
-					<!-- Désactivée pour l'instant, fin du comment ligne 114
+					<!-- Désactivée pour l'instant, fin du comment ligne 119
 					<nav class="navbar navbar-default" role="navigation">
 						<div class="navbar-header">
 							 
@@ -121,44 +121,49 @@
 					<!--corps de la page, sectionnée en tabs-->
 					<div class="row">
 						<div class="col-md-12">
-							<div class="tabbable" id="tabs-10">
-								<ul class="nav nav-tabs">
-									<li class="active">
-										<a href="#panel-1" data-toggle="tab">Mon ressenti sur la formation</a>
-									</li>
-									<li>
-										<a href="#panel-2" data-toggle="tab">Résumé statistique</a>
-									</li>
-									<li>
-										<a href="#panel-3" data-toggle="tab">Liens utiles</a>
-									</li>
-								</ul>
-								<div class="tab-content">
-									<div class="tab-pane active" id="panel-1">
-										<div class="col-md-6">
-											<p>
-												Choisissez, en dessous, la date à renseigner :
-											</p>
-											<p>Date: <input type="text" id="datepicker"></p>
-										</div>
-										<div class="col-md-6">
-											<div id="slider"></div>
-										</div>
-									</div>
-									
-									<div class="tab-pane" id="panel-2">
-										<p>
-											Howdy, I'm in Section 2.
-										</p>
-									<div class="tab-pane" id="panel-3">
-										<p>
-											Howdy, I'm in Section 3.
-										</p>
-									</div>
-								</div>
+
+							<div id="tabs">
+							  	<ul>
+							    	<li><a href="#tabs-1">Mon ressenti sur la formation</a></li>
+							    	<li><a href="#tabs-2">Résumé statistique</a></li>
+							    	<li><a href="#tabs-3">Liens utiles</a></li>
+							  	</ul>
+							  	<div id="tabs-1">
+							  		<div class="col-md-4">
+							    		<p>Choisissez, en dessous, la date à renseigner :</p>
+							    		<p>Date: <input type="text" id="datepicker"></p>
+							    	</div>
+
+							    	<div class="col-md-3">
+							    		<p>
+							    			<label for="amount">Happiness in code :</label>
+  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+  										</p>
+  										<div id="slider-vertical" style="height:200px;"></div>
+							    	</div>
+
+							    	<div class="col-md-3">
+							    		<p>
+							    			<label for="amount">Happiness in life :</label>
+  <input type="text" id="amount2" readonly style="border:0; color:#f6931f; font-weight:bold;">
+  										</p>
+  										<div id="slider-vertical2" style="height:200px;"></div>
+							    	</div>
+
+							  	</div>
+							  	<div id="tabs-2">
+							    	<p>Blabla</p>
+							  	</div>
+
+							  	<div id="tabs-3">
+							    	<p>Blabla2</p>
+							  	</div>
 							</div>
+
+							
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</div>
