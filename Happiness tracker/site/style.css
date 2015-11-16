@@ -1,0 +1,99 @@
+
+.ui-tabs-nav { 
+    background: transparent; 
+    border-width: 0px 0px 1px 0px; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-radius: 0px; 
+} 
+.ui-widget-content a {
+    color: white;
+}
+.ui-widget-header {
+    border-bottom: 1px solid #337AB7;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border: 1px solid #337AB7;
+    background: #EDEDED;
+    font-weight: bold;
+    color: #337AB7;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #002D56;
+    text-decoration:none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 2px solid #337AB7 ;
+    background: #FFF repeat-x scroll 50% 50%;
+    font-weight: bold;
+    color: #337AB7 ;
+}
+.ui-datepicker-header{
+    background:#337AB7;
+    border: none;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight{
+    background: #EDEDED;
+    border: 1px solid #337AB7;
+}
+#Header {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #337AB7;
+}
+#tabs {
+    background: transparent;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}   
+.id-icons img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.id-icons {
+    border-bottom: 1px solid #337AB7 ;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.calendrier {
+    margin-top: 30px;
+    text-align: center;
+}
+.tracker1 {
+    width:24%;
+    text-align: center;
+}
+.tracker2 {
+    width:24%;
+    text-align: center;
+}
+.tracker3 {
+    width:24%;
+    text-align: center;
+}
+.tracker1 img {
+    width: 30px;
+    margin-top: 10px;
+}
+.tracker2 img {
+    width: 30px;
+    margin-top: 10px;
+}
+
+.tracker3 img {
+    width: 30px;
+    margin-top: 10px;
+}
+
+
