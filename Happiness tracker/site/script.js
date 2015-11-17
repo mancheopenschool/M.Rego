@@ -2,11 +2,10 @@ $(document).ready(function(){
 
 	$( "#tabs" ).tabs();
     $.datepicker.setDefaults( $.datepicker.regional[ "fr" ] );
-	    $( "#datepicker" ).datepicker({
-        altField: "#alternate",
-        altFormat: "DD, d MM, yy"
-      });
-      
+	$( "#datepicker" ).datepicker({
+	  altField: "#alternate",
+      altFormat: "DD d MM yy"
+	});
 
         $( "#slider1" ).slider({
       range: "min",
