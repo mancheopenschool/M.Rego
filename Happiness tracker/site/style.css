@@ -13,6 +13,7 @@
     border-bottom: 1px solid #337AB7;
     color: #FFF;
     font-weight: bold;
+    background: #337AB7;
 }
 
 .ui-state-hover,
@@ -40,24 +41,39 @@
     background:#337AB7;
     border: none;
 }
+.ui-datepicker-calendar {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+}
 .ui-state-highlight, .ui-widget-content .ui-state-highlight{
     background: #EDEDED;
     border: 1px solid #D9534F;
 }
-
-.ui-widget-content {
+.ui-tabs .ui-tabs-nav {
     background: transparent;
 }
-
+.ui-widget-content {
+    background: transparent;
+    border: none;
+}
+.ui-tabs .ui-tabs-nav li {
+    border-bottom: 1px solid #337AB7;
+}
 #Header {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     color: #337AB7;
     text-align: center;
+    text-shadow: #002D56 1px 0px 0px, #002D56 1px 1px 0px, #002D56 1px -1px 0px, #002D56 -1px 1px 0px, #002D56 -1px 0px 0px, #002D56 -1px -1px 0px, #002D56 0px 1px 0px, #002D56 0px -1px 0px;
+}
+#Header h1{
+    padding: 10px;    
 }
 #tabs {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -65,6 +81,8 @@
 }  
 body {
     background-image: url(images/icones/1.JPG);
+    background-position: center;
+    background-attachment: fixed;
 } 
 .id-icons img {
     width: 60px;
@@ -106,17 +124,21 @@ body {
     margin-top: 10px;
 }
 #slider1 {
-    background-color: white;
+    background: white;
 }
 #slider2 {
-    background-color: white;
+    background: white;
 }
 #slider3 {
-    background-color: white;
+    background: white;
 }
-#datepicker {
-    background-color: white;
+#mychart {
+    width: 1000px;
+    height: 400px;
 }
-#alternate {
-    padding : auto;
+.chartWrapper {
+  margin: 15px auto;
+  width: 500px;
+  height: 200px;
+  text-align: center;
 }
