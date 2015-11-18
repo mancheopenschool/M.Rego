@@ -41,35 +41,62 @@ $(document).ready(function(){
     $( "#amount3" ).val( $( "#slider3" ).slider( "value" ) );
 
 
-  var r = Raphael("simpleExample");
-     var xAxisValues = [];
-  for( var i = 0; i < 8; i++ ) {
-    var date = new Date();
-    date.setDate(date.getDate() + i);
-    xAxisValues.push(date.getTime());
-  }
-  var yAxisValues = [1, 2, 3, 4, 5];
- 
-  var chart = r.g.linechart(
-    10, 10,      // top left anchor
-    490, 180,    // bottom right anchor
-    xAxisValues,
-    yAxisValues,
-    {
-       nostroke: false,   // lines between points are drawn
-       axis: "0 0 1 1",   // draw axes on the left and bottom
-       symbol: "disc",            // the data set is filled circles
-       smooth: true,      // curve the lines to smooth turns on the chart
-       colors: ["#995555" ]     // the line is red
-     });
- 
-    // change the x-axis labels
-    var axisItems = chart.axis[0].text.items
-    for( var i = 0, l = axisItems.length; i < l; i++ ) {
-       var date = new Date(parseInt(axisItems[i].attr("text")));
-       // using the excellent dateFormat code from Steve Levithan
-       // See: http://blog.stevenlevithan.com/archives/date-time-format
-       axisItems[i].attr("text", dateFormat(date, "dd"));
-    }
+
+            // prepare chart data
+            var  sampleData = [
+                    { Day:'Monday', Keith:30, Erica:15, George: 25},
+                    { Day:'Tuesday', Keith:25, Erica:25, George: 30},
+                    { Day:'Wednesday', Keith:30, Erica:20, George: 25},
+                    { Day:'Thursday', Keith:35, Erica:25, George: 45},
+                    { Day:'Friday', Keith:20, Erica:20, George: 25},
+                    { Day:'Saturday', Keith:30, Erica:20, George: 30},
+                    { Day:'Sunday', Keith:60, Erica:45, George: 90}
+                ];
+            
+            // prepare jqxChart settings
+            var settings = {
+                title: "Fitness & exercise weekly scorecard",
+                description: "Time spent in vigorous exercise",
+                padding: { left: 5, top: 5, right: 5, bottom: 5 },
+                titlePadding: { left: 90, top: 0, right: 0, bottom: 10 },
+                source: sampleData,
+                categoryAxis:
+                    {
+                        dataField: 'Day',
+                        showGridLines: false
+                    },
+                colorScheme: 'scheme01',
+                seriesGroups:
+                    [
+                        {
+                            type: 'column',
+                            columnsGapPercent: 30,
+                            seriesGapPercent: 0,
+                            valueAxis:
+                            {
+                                minValue: 0,
+                                maxValue: 100,
+                                unitInterval: 10,
+                                description: 'Time in minutes'
+                            },
+                            series: [
+                                    { dataField: 'Keith', displayText: 'Keith'},
+                                    { dataField: 'Erica', displayText: 'Erica'},
+                                    { dataField: 'George', displayText: 'George'}
+                                ]
+                        }
+                    ]
+            };
+            
+            // select the chartContainer DIV element and render the chart.
+            $('#chartContainer').jqxChart(settings);
+
+
+
+
+
 });
+
+
+
 

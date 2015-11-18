@@ -1,118 +1,217 @@
 <!doctype html>
 <html lang="fr">
 
-  <head>
+<head>
 
-     <meta charset="UTF-8">
-     <title>Happiness tracker</title>
-     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
-     <link rel="stylesheet" type="text/css" href="lib/jqueryui/jquery-ui.css">
-     <link rel="stylesheet" type="text/css" href="style.css">    
+    <meta charset="UTF-8">
+    <title>Happiness tracker groupe</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/jqueryui/jquery-ui.css">
+    <link rel="stylesheet" href="lib/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-  </head>
+</head>
 
-  <body>
-
-  <div id="Header">
-    <h1>Happiness Tracker</h1>
-  </div>
-
-  <div id="tabs">
-    <ul>
-      <li><a href="#tabs-1">Formulaire</a></li>
-      <li><a href="#tabs-2">Stats</a></li>
-      <li><a href="#tabs-3">Liens</a></li>
-      <li><a href="#tabs-4">Réseaux sociaux</a></li>
-    </ul>
-
-  <div id="tabs-1">
-    <div class="id-icons">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
-      <img src="images/icon1.png">
+<body>
+<div class="container-fluid">
+    <div id="header">
+        <h1>Happiness Tracker</h1>
     </div>
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Formulaire</a></li>
+            <li><a href="#tabs-2">Stats</a></li>
+            <li><a href="#tabs-3">Liens</a></li>
+            <li><a href="#tabs-4">Réseaux sociaux</a></li>
+        </ul>
 
-    
-    <div class="row">
-    <div class="col-md-3 calendrier">
-      <p>Date: <input type="text" id="datepicker"></p>
-    </div>
-
-    <div class="col-md-3 tracker1">
-      <h2>Growth in code</h2>
-      <div id="slider1"></div>
-        <img src="images/sad.png" style="float:left">
-        <img src="images/happy.png" style="float:right">
-    </div> 
-
-    <div class="col-md-3 tracker2">  
-      <h2>Happiness in code</h2>
-      <div id="slider2"></div>
-        <img src="images/sad.png" style="float:left">
-        <img src="images/happy.png" style="float:right">      
-    </div>
-
-    <div class="col-md-3 tracker3">  
-      <h2>Happiness in life</h2>
-      <div id="slider3"></div> 
-        <img src="images/sad.png" style="float:left">
-        <img src="images/happy.png" style="float:right">      
-    </div> 
-    </div>
-
-    <br>
-
-    <div class="row">
-      <div class="col-md-offset-3 col-md-9">
-        <div class="form-group">
-         <label for="comment">Commentaires :</label>
-         <textarea class="form-control" rows="5" id="comment"></textarea>
+        <div id="tabs-1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="id-icons">
+                            <img src="images/icones/arthur.png">
+                            <img src="images/icones/Cyril.png">
+                            <img src="images/icones/davidkat.png">
+                            <img src="images/icones/guillaume-d.png">
+                            <img src="images/icones/guillaume-m.png">
+                            <img src="images/icones/guitou.png">
+                            <img src="images/icones/gwen.png">
+                            <img src="images/icones/louis.png">
+                            <img src="images/icones/maryline.png">
+                            <img src="images/icones/micka.png">
+                            <img src="images/icones/migoo.png">
+                            <img src="images/icones/mike.png">
+                            <img src="images/icones/phil.png">
+                            <img src="images/icones/rishi.png">
+                            <img src="images/icones/thomas.png">
+                            <img src="images/icones/valentin.png">
+                            <img src="images/icones/vincent.png">
+                        </div>
+                    </div>
+                </div>
+                <!--
+                    Aucun container, aucune row, aucune col.
+                -->
+                <div class="col-md-4 calendrier">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Sélectionnez votre date</p>
+                            <div id="datepicker"></div>
+                            <p>
+                               Vous avez sélectionné cette date pour vos données du jour : 
+                            </p>
+                            <p>
+                               <input type="text" id="alternate" readonly="readonly">
+                            </p>
+                            <div class="col-md-12">
+                                <a href="#" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-time"></span> Absent</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <!-- UTILISER DES COLONNES ET LIGNE ! -->
+                        <div class="col-md-4 tracker">
+                            <div class="row">
+                                <div class="col-md-12"><p>Growth in code</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12"><div id="slider1"></div></div>
+                            </div>
+                            <div class="row input">
+                                <div class="col-xs-4">
+                                    <img src="images/sad.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-4">
+                                    <p><input type="text" id="amount1" readonly></p>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="images/happy.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 tracker">
+                            <div class="row">
+                                <div class="col-md-12"><p>Happiness in code</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12"><div id="slider2"></div></div>
+                            </div>
+                            <div class="row input">
+                                <div class="col-xs-4">
+                                    <img src="images/sad.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-4">
+                                    <p><input type="text" id="amount2" readonly></p>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="images/happy.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 tracker">
+                            <div class="row">
+                                <div class="col-md-12"><p>Happiness in life</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12"><div id="slider3"></div></div>
+                            </div>
+                            <div class="row input">
+                                <div class="col-xs-4">
+                                    <img src="images/sad.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-4">
+                                    <p><input type="text" id="amount3" readonly></p>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="images/happy.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="comment">Commentaires :</label>
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 btn-ajouter">
+                            <a href="#" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-plus"></span> Ajouter l'entrée</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-3" style="text-align:center">
-        <a href="#" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-time"></span> Absent</a>
-      </div>
+        <div id="tabs-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id='chartContainer' style="width:600px; height: 400px"/>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="col-md-9"  style="text-align:center">
-      <a href="#" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-plus"></span> Ajouter l'entrée</a>
-    </div>
-    </div>
-  </div>
+        <div id="tabs-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula
+                            accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti
+                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel
+                            enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium
+                            nec, feugiat nec, luctus a, lacus.</p>
 
-  <div id="tabs-2">
-    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-  </div>
-  <div id="tabs-3">
-    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
-  </div>
-    <div id="tabs-4">
-    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
-  </div>
+                        <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla
+                            facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec
+                            mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam
+                            scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor,
+                            tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo.
+                            Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tabs-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula
+                            accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti
+                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel
+                            enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium
+                            nec, feugiat nec, luctus a, lacus.</p>
+
+                        <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla
+                            facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec
+                            mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam
+                            scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor,
+                            tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo.
+                            Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-     <script src="lib/jqueryui/jquery-ui.js"></script>
-     <script src="script.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="lib/jqueryui/jquery-ui.js"></script>
+<script src="lib/jqueryui/jquery.ui.datepicker-fr.js"></script>
+<script type="text/javascript" src="lib/jqwidgets/jqxcore.js"></script>
+<script type="text/javascript" src="lib/jqwidgets/jqxchart.core.js"></script>
+<script type="text/javascript" src="lib/jqwidgets/jqxdraw.js"></script>
+<script type="text/javascript" src="lib/jqwidgets/jqxdata.js"></script>
+<script src="script.js"></script>
 
-  </body>
+</body>
 
 </html>

@@ -1,11 +1,90 @@
+body {
+    background-image: url(images/icones/1.JPG);
+    background-position: center;
+    background-attachment: fixed;
+}
 
-.ui-tabs-nav { 
-    background: transparent; 
-    border-width: 0px 0px 1px 0px; 
-    -moz-border-radius: 0px; 
-    -webkit-border-radius: 0px; 
-    border-radius: 0px; 
-} 
+#header {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #337AB7;
+    text-align: center;
+    text-shadow: #002D56 1px 0px 0px, #002D56 1px 1px 0px, #002D56 1px -1px 0px, #002D56 -1px 1px 0px, #002D56 -1px 0px 0px, #002D56 -1px -1px 0px, #002D56 0px 1px 0px, #002D56 0px -1px 0px;
+}
+#header h1{
+    padding: 10px;
+}
+#tabs {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.id-icons img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.id-icons {
+    border-bottom: 1px solid #337AB7 ;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.calendrier {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#datepicker {
+    display: inline-block;
+}
+
+#alternate {
+    text-align: center;
+    background-color: white;
+}
+.tracker img {
+    width: 30px;
+    height: auto;
+    position: relative;
+}
+.input {
+    margin-top: 8px;
+}
+.input img {
+    margin: auto;
+}
+.row input {
+    display: inline-block;
+}
+.tracker input, .tracker p {
+    border: 0;
+    color: #f6931f;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+#slider1, #slider2, #slider3 {
+    background: white;
+}
+.btn-ajouter {
+    text-align: center;
+}
+
+/* UI TABLES */
+.ui-tabs-nav {
+    background: transparent;
+    border-width: 0px 0px 1px 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
 .ui-widget-content a {
     color: white;
 }
@@ -29,7 +108,7 @@
 }
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
     color: #002D56;
-    text-decoration:none;
+    text-decoration: none;
 }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
     border: 1px solid #337AB7 ;
@@ -58,87 +137,4 @@
 }
 .ui-tabs .ui-tabs-nav li {
     border-bottom: 1px solid #337AB7;
-}
-#Header {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 5px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    color: #337AB7;
-    text-align: center;
-    text-shadow: #002D56 1px 0px 0px, #002D56 1px 1px 0px, #002D56 1px -1px 0px, #002D56 -1px 1px 0px, #002D56 -1px 0px 0px, #002D56 -1px -1px 0px, #002D56 0px 1px 0px, #002D56 0px -1px 0px;
-}
-#Header h1{
-    padding: 10px;    
-}
-#tabs {
-    background-color: rgba(255, 255, 255, 0.9);
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 50px;
-}  
-body {
-    background-image: url(images/icones/1.JPG);
-    background-position: center;
-    background-attachment: fixed;
-} 
-.id-icons img {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 15px;
-}
-.id-icons {
-    border-bottom: 1px solid #337AB7 ;
-    margin-bottom: 5px;
-    text-align: center;
-}
-.calendrier {
-    text-align: center;
-    margin-bottom: 30px;
-}
-.tracker1 {
-    width:24%;
-    text-align: center;
-}
-.tracker2 {
-    width:24%;
-    text-align: center;
-}
-.tracker3 {
-    width:24%;
-    text-align: center;
-}
-.tracker1 img {
-    width: 30px;
-    margin-top: 10px;
-}
-.tracker2 img {
-    width: 30px;
-    margin-top: 10px;
-}
-
-.tracker3 img {
-    width: 30px;
-    margin-top: 10px;
-}
-#slider1 {
-    background: white;
-}
-#slider2 {
-    background: white;
-}
-#slider3 {
-    background: white;
-}
-#mychart {
-    width: 1000px;
-    height: 400px;
-}
-.chartWrapper {
-  margin: 15px auto;
-  width: 500px;
-  height: 200px;
-  text-align: center;
 }
