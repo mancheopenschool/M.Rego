@@ -38,11 +38,13 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
-
+.calendrier p {
+    font-weight: bold;
+    font-style: italic;
+}
 #datepicker {
     display: inline-block;
 }
-
 #alternate {
     text-align: center;
     background-color: white;
@@ -63,7 +65,7 @@ body {
 }
 .tracker input, .tracker p {
     border: 0;
-    color: #f6931f;
+    color: #337AB7;
     font-weight: bold;
     font-size: 20px;
     background-color: transparent;
@@ -73,10 +75,19 @@ body {
 #slider1, #slider2, #slider3 {
     background: white;
 }
+.form-group {
+    margin-top: 20px;
+}
+#comment {
+    height: 180px;
+}
 .btn-ajouter {
     text-align: center;
+    margin-top: 30px;
 }
-
+.btn-absent {
+    margin-top: 20px;
+}
 /* UI TABLES */
 .ui-tabs-nav {
     background: transparent;
@@ -137,4 +148,17 @@ body {
 }
 .ui-tabs .ui-tabs-nav li {
     border-bottom: 1px solid #337AB7;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: .5em .5em
+}
+
+/*CSS du graphique*/
+
+#myfirstchart > svg { 
+    width: 100% !important; 
+}
+#myfirstchart {
+    height: 400px;
+    width: 100%;
 }
