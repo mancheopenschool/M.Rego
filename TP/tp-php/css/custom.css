@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #9DB9FF;
+}
+
+form {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    /* The translate % is relative to the size of the div and not the container*/
+    /* 21.42% = ( (100%-70%/2) / 0.7 ) */
+    /* 116.666% = ( (100%-30%/2) / 0.3 ) */
+    transform: translate3d( 116.666%, 116.666%, 0);
+}
+
+label,
+input[type="text"],
+input[type="password"] {
+    display: block;
+    min-width: 200px;
+}
+
+label {
+    text-align: center;
+}
+
+input[type="text"], input[type="password"]{
+    height: 35px;
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+input[type="text"]:focus,
+input[type="text"].focus,
+input[type="password"]:focus,
+input[type="password"].focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+input[type="submit"]{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+}
+input {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.profil {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+    background: rgba(255, 255, 255, .4);
+    /*opacity: 0.7;*/
+    padding: 1em;
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    text-align: center;
+    display: block;
+    transform: translate3d( 21.42%, 16.666%, 0);
+    /*color: white;*/
+    min-height: 70%;
+}
+
+.profil header {
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.profil header div {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.profil header div.avatar img {
+    border: 1px solid #dcdcdc;
+}
+
+.profil header div.welcome {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.profil header div.welcome span {
+    display: block;
+    font-size: 0.7em;
+}
+.profil header .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+#popup {
+    display: none;
+}
+
+.content, aside {
+    display: inline-block;
+}
+
+.content {
+    width: 69%;
+}
+aside {
+    width: 30%;
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+
+.progressBar {
+    width: 200px;
+    height: 22px;
+    border: 1px solid #111;
+    background-color: #969696;
+}
+.progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+}
+
+.progressBar#hl div {
+    background-color: #38FF4D;
+}
+.progressBar#hc div {
+    background-color: #FF7F2B;
+}
+
+.progressBar#gc div {
+    background-color: #50A8FF;
+}
