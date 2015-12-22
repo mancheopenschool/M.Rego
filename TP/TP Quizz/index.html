@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <title>TP Quizz</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/i18n/jquery-ui-i18n.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			
+				<h1>Quizz</h1>
+
+				<button type="button" class="btn btn-primary">Appuyez sur ce bouton pour lancer le quizz</button>
+
+				<p><label>Question : </label> <input type="text" id="question" title="Ici apparaitra la question, les réponses possibles seront juste en dessous" readonly></p>
+
+				<form>
+					<div id="radio">
+					    <input type="radio" id="radio1" name="radio"><label for="radio1">Réponse 1 : </label>
+					</div>
+					<div id="radio">
+					    <input type="radio" id="radio2" name="radio"><label for="radio2">Réponse 2 : </label>
+					</div>
+					<div id="radio">
+					    <input type="radio" id="radio3" name="radio"><label for="radio3">Réponse 3 : </label>
+					</div>
+				</form>
+
+				<button type="button" class="btn btn-success">Validez votre choix pour vérifier si votre réponse est bonne</button>
+
+				<p><label>Votre réponse est : </label> <input type="text" id="réponse" readonly></p>
+
+			</div>
+		</div>			
+	</div>
+</body>
+
+</html>
