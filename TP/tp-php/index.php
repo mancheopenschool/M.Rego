@@ -1,5 +1,7 @@
-<?php             // si OK, on démarre la session
-session_start(); ?>
+<?php
+// si OK, on démarre la session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +25,7 @@ session_start(); ?>
                 echo "Les champs ne doivent pas être vides";
             }
             else {
-                // Sinon, on verifie si le login existe et si le password est OK
+                // Sinon, on vérifie si le login existe et si le password est OK
                 // Comme on veut afficher les eventuelles erreurs ici, dans le <p>
                 // on affiche le résultat renvoyé par la fonction verify_login
                 // On lui passe en paramètre le login et password entrés par l'utilisateur
@@ -69,7 +71,7 @@ function verify_login($login, $password){
     // Création de la requête, on veut l'id, le login, et le password
     // on cherche la ligne avec login = le login demandé par l'utilisateur (ici, $login)
     // Requêtes préparées, voir doc PDO
-    $req = $bdd->prepare('SELECT id, login, password FROM user WHERE login = ?');
+    $req = $bdd->prepare('SELECT id, login, password FROM `user` WHERE login = ?');
     $req->execute(array($login));
 
     // On compte le nombre d'entrées retournées. Si 0, alors le login n'existe pas
@@ -89,10 +91,7 @@ function verify_login($login, $password){
             // et on crée une variable user_id contenant l'id de l'utilisateur en BDD
             // Cette variable est stockée dans $_SESSION, et suit l'utilisateur sur les pages
             $_SESSION['user_id'] = $user['id'];
-            // Mise à jour de la date du dernier login
-            $req = $bdd->prepare('UPDATE user SET last_login = NOW() WHERE id = ?');
-            $req->execute(array($_SESSION['user_id']));
-            $req->closeCursor();
+
             // On envoie l'utilisateur vers son profil
             header("Location:php/profil.php");
         }
