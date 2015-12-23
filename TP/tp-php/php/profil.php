@@ -40,7 +40,7 @@ session_start();
             <img src="../images/<?php echo $user['avatar']; ?>" />
         </div>
         <div class="welcome">
-            Bienvenue <?php echo $user['login']; ?> !
+            Bienvenue <?php echo htmlspecialchars($user['login']); ?> !
             <!-- @TODO mieux formater la date: "Le dd/mm/yyyy à hh:mm:ss" -->
             <span>Dernière connexion le <?php echo date( 'd-m-y H:i:s', strtotime($user['last_login']));?></span>
             Team <span><?php echo $user['groupe']; ?></span>
@@ -97,13 +97,13 @@ session_start();
             <label for="firstname">Prénom:
                 <!-- On met la valeur de firstname en value par défaut -->
                 <!-- si firstname est vide ou null, le champ sera donc vide par défaut -->
-                <input type="text" id="firstname" name="firstname" value="<?php echo $user['firstname']; ?>"/>
+                <input type="text" id="firstname" name="firstname" value="<?php echo htmlspecialchars($user['firstname']); ?>"/>
             </label>
             <label for="lastname">Nom:
-                <input type="text" id="lastname" name="lastname" value="<?php echo $user['lastname']; ?>"/>
+                <input type="text" id="lastname" name="lastname" value="<?php echo htmlspecialchars($user['lastname']); ?>"/>
             </label>
             <label for="password">Mot de passe:
-                <input type="password" id="password" name="password" value="<?php echo $user['password']; ?>"/>
+                <input type="password" id="password" name="password" value="<?php echo htmlspecialchars($user['password']); ?>"/>
             </label>
             <label for="avatar">Avatar:
                 <input type="file" name="avatar" id="avatar"/>
