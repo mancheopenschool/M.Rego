@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Happiness tracker groupe</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/jqueryui/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<div class="container-fluid">
+    <div id="header">
+        <h1>Happiness Tracker</h1>
+    </div>
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Formulaire</a></li>
+            <li><a href="#tabs-2">Stats</a></li>
+            <li><a href="#tabs-3">Liens</a></li>
+            <li><a href="#tabs-4">Réseaux sociaux</a></li>
+        </ul>
+
+        <div id="tabs-1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="id-icons">
+                            <a href="#"><img src="images/icones/arthur.png"></a>
+                            <a href="#"><img src="images/icones/Cyril.png"></a>
+                            <a href="#"><img src="images/icones/davidkat.png"></a>
+                            <a href="#"><img src="images/icones/guillaume-d.png"></a>
+                            <a href="#"><img src="images/icones/guillaume-m.png"></a>
+                            <a href="#"><img src="images/icones/guitou.png"></a>
+                            <a href="#"><img src="images/icones/gwen.png"></a>
+                            <a href="#"><img src="images/icones/louis.png"></a>
+                            <a href="#"><img src="images/icones/maryline.png"></a>
+                            <a href="#"><img src="images/icones/micka.png"></a>
+                            <a href="#"><img src="images/icones/migoo.png"></a>
+                            <a href="#"><img src="images/icones/mike.png"></a>
+                            <a href="#"><img src="images/icones/phil.png"></a>
+                            <a href="#"><img src="images/icones/rishi.png"></a>
+                            <a href="#"><img src="images/icones/thomas.png"></a>
+                            <a href="#"><img src="images/icones/valentin.png"></a>
+                            <a href="#"><img src="images/icones/vincent.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                    Aucun container, aucune row, aucune col.
+                -->
+                <div class="col-md-4 calendrier">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Sélectionnez votre date</p>
+                            <div id="datepicker"></div>
+                            <p>Vous avez sélectionné cette date :</p>
+                            <input type="text" id="alternate" readonly="readonly">
+                            <div class="col-md-12 btn-absent">
+                                <a href="#" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-time"></span> Absent</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <!-- UTILISER DES COLONNES ET LIGNE ! -->
+                        <div class="col-md-4 tracker">
+                            <div class="row">
+                                <div class="col-md-12"><p>Growth in code</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12"><div id="slider1"></div></div>
+                            </div>
+                            <div class="row input">
+                                <div class="col-xs-4">
+                                    <img src="images/sad.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-4">
+                                    <input type="text" id="amount1" readonly>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="images/happy.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 tracker">
+                            <div class="row">
+                                <div class="col-md-12"><p>Happiness in code</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12"><div id="slider2"></div></div>
+                            </div>
+                            <div class="row input">
+                                <div class="col-xs-4">
+                                    <img src="images/sad.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-4">
+                                    <p><input type="text" id="amount2" readonly></p>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="images/happy.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 tracker">
+                            <div class="row">
+                                <div class="col-md-12"><p>Happiness in life</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12"><div id="slider3"></div></div>
+                            </div>
+                            <div class="row input">
+                                <div class="col-xs-4">
+                                    <img src="images/sad.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-4">
+                                    <p><input type="text" id="amount3" readonly></p>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="images/happy.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="comment">Commentaires :</label>
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 btn-ajouter">
+                            <a href="#" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-plus"></span> Ajouter l'entrée</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tabs-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="myfirstchart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tabs-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Bli</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tabs-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Blo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+<script type="text/javascript" src="lib/jqueryui/jquery-ui.js"></script>
+<script type="text/javascript" src="lib/jqueryui/jquery.ui.datepicker-fr.js"></script>
+<script type="text/javascript" src="chart.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

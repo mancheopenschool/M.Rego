@@ -1,0 +1,164 @@
+body {
+    background-image: url(images/icones/1.JPG);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#header {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #337AB7;
+    text-align: center;
+    text-shadow: #002D56 1px 0px 0px, #002D56 1px 1px 0px, #002D56 1px -1px 0px, #002D56 -1px 1px 0px, #002D56 -1px 0px 0px, #002D56 -1px -1px 0px, #002D56 0px 1px 0px, #002D56 0px -1px 0px;
+}
+#header h1{
+    padding: 10px;
+}
+#tabs {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.id-icons img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.id-icons {
+    border-bottom: 1px solid #337AB7 ;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.calendrier {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.calendrier p {
+    font-weight: bold;
+    font-style: italic;
+}
+#datepicker {
+    display: inline-block;
+}
+#alternate {
+    text-align: center;
+    background-color: white;
+}
+.tracker img {
+    width: 30px;
+    height: auto;
+    position: relative;
+}
+.input {
+    margin-top: 8px;
+}
+.input img {
+    margin: auto;
+}
+.row input {
+    display: inline-block;
+}
+.tracker input, .tracker p {
+    border: 0;
+    color: #337AB7;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+#slider1, #slider2, #slider3 {
+    background: white;
+}
+.form-group {
+    margin-top: 20px;
+}
+#comment {
+    height: 180px;
+}
+.btn-ajouter {
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-absent {
+    margin-top: 20px;
+}
+/* UI TABLES */
+.ui-tabs-nav {
+    background: transparent;
+    border-width: 0px 0px 1px 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+.ui-widget-content a {
+    color: white;
+}
+.ui-widget-header {
+    border-bottom: 1px solid #337AB7;
+    color: #FFF;
+    font-weight: bold;
+    background: #337AB7;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border: 1px solid #337AB7;
+    background: #EDEDED;
+    font-weight: bold;
+    color: #337AB7;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #002D56;
+    text-decoration: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #337AB7 ;
+    background: #FFF repeat-x scroll 50% 50%;
+    font-weight: bold;
+    color: #337AB7 ;
+}
+.ui-datepicker-header{
+    background:#337AB7;
+    border: none;
+}
+.ui-datepicker-calendar {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight{
+    background: #EDEDED;
+    border: 1px solid #D9534F;
+}
+.ui-tabs .ui-tabs-nav {
+    background: transparent;
+}
+.ui-widget-content {
+    background: transparent;
+    border: none;
+}
+.ui-tabs .ui-tabs-nav li {
+    border-bottom: 1px solid #337AB7;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: .5em .5em
+}
+
+/*CSS du graphique*/
+
+#myfirstchart > svg { 
+    width: 100% !important; 
+}
+#myfirstchart {
+    height: 400px;
+    width: 100%;
+}
